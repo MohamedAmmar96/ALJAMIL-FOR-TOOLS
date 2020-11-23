@@ -38,8 +38,20 @@
             border-radius: 8px;
             margin-bottom: 10px;
         }
+        html[dir=ltr] .search-bar .search-input {
+            border-radius: 8px;
+        }
         .search-bar .search-click {
             width: 100%;
+            border-radius: 8px;
+        }
+        html[dir=ltr] .search-bar .search-click {
+            border-radius: 8px;
+        }
+        .search-bar .search-click::after {
+            border-radius: 8px;
+        }
+        html[dir=ltr] .search-bar .search-click::after {
             border-radius: 8px;
         }
         .open-search::after {
@@ -314,7 +326,7 @@
         }
         .footer-top .two {
             text-align: center;
-            margin-bottom: 40px;
+            margin-top: 40px;
         }
         .footer-top .two .newsletter-disc {
             margin-bottom: 10px;
@@ -404,6 +416,16 @@
             margin-left: 0;
             margin-right: 10px;
         }
+        .item-content .item-name {
+            height: 40px;
+            font-size: 15px;
+        }
+        .price-box .first-price {
+            font-size: 15px;
+        }
+        .price-box .last-price {
+            font-size: 15px;
+        }
         .two .email {
             width: calc(100% - 10%);
             margin-left: auto;
@@ -484,8 +506,20 @@
             border-radius: 8px;
             margin-bottom: 10px;
         }
+        html[dir=ltr] .search-bar .search-input {
+            border-radius: 8px;
+        }
         .search-bar .search-click {
             width: 100%;
+            border-radius: 8px;
+        }
+        html[dir=ltr] .search-bar .search-click {
+            border-radius: 8px;
+        }
+        .search-bar .search-click::after {
+            border-radius: 8px;
+        }
+        html[dir=ltr] .search-bar .search-click::after {
             border-radius: 8px;
         }
         .open-search::after {
@@ -763,7 +797,7 @@
         }
         .footer-top .two {
             text-align: center;
-            margin-bottom: 40px;
+            margin-top: 40px;
         }
         .footer-top .two .newsletter-disc {
             margin-bottom: 10px;
