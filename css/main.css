@@ -696,6 +696,7 @@
         visibility: visible;
         opacity: 1;
     }
+    /*new edit*/
     /** sub list Start **/
     
     .tools-list .sub-box {
@@ -707,7 +708,6 @@
         top: 50%;
         right: 100%;
         transform: translateY(-50%);
-        /*new edit*/
         min-width: 160px;
         background-color: #fff;
         padding: 10px 0;
