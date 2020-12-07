@@ -658,7 +658,8 @@
         top: 100%;
         right: 50%;
         transform: translateX(50%);
-        width: 155px;
+        /*new edit*/
+        min-width: 160px;
         background-color: #fff;
         padding: 10px 0;
         z-index: 99999;
@@ -669,11 +670,14 @@
     }
     
     .tools-list .tools-li {
-        padding: 8px 25px 8px 0;
+        /*new edit*/
+        width: 100%;
+        padding: 8px 25px;
     }
     
     html[dir=ltr] .tools-list .tools-li {
-        padding: 8px 0px 8px 25px;
+        /*new edit*/
+        padding: 8px 25px;
     }
     
     .tools-li .tools-link {
@@ -689,6 +693,53 @@
     }
     
     .nav-list .tools-box:hover .tools-list {
+        visibility: visible;
+        opacity: 1;
+    }
+    /** sub list Start **/
+    
+    .tools-list .sub-box {
+        position: relative;
+    }
+    
+    .sub-box .sub-list {
+        position: absolute;
+        top: 50%;
+        right: 100%;
+        transform: translateY(-50%);
+        /*new edit*/
+        min-width: 160px;
+        background-color: #fff;
+        padding: 10px 0;
+        z-index: 99999;
+        box-shadow: 3px 3px 15px #00000012, -3px -3px 15px #00000012;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0.4s ease-in-out;
+    }
+    
+    html[dir=ltr] .sub-box .sub-list {
+        right: auto;
+        left: 100%;
+    }
+    
+    .sub-list .sub-li {
+        padding: 8px 25px;
+    }
+    
+    .sub-li .sub-link {
+        color: #000;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: "medium";
+        transition: all 0.4s ease-in-out;
+    }
+    
+    .sub-li .sub-link:hover {
+        color: #0d47a1;
+    }
+    
+    .tools-list .sub-box:hover .sub-list {
         visibility: visible;
         opacity: 1;
     }

@@ -310,4 +310,9 @@ $(document).ready(function() {
         $(".mo-nav .tools-list").css("transition", "none");
         $(".mo-nav .tools-list").slideToggle(300);
     });
+    $(".sub-box .tools-link").click(function() {
+        $(".sub-box .tools-link").toggleClass("rotate");
+        $(".sub-box .sub-list").css("transition", "none");
+        $(".sub-box .sub-list").slideToggle(300);
+    });
 });
