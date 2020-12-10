@@ -592,7 +592,11 @@
     }
     
     .mo-nav .close,
-    .mo-nav .nav-list .nav-li:nth-child(2) {
+    /*********new Edit*********/
+    
+    .mo-nav .nav-list .nav-li:nth-child(1),
+    .mo-nav .nav-list .nav-li:nth-child(2),
+    .mo-nav .nav-list .nav-li:nth-child(3) {
         display: none;
     }
     
@@ -658,7 +662,6 @@
         top: 100%;
         right: 50%;
         transform: translateX(50%);
-        /*new edit*/
         min-width: 160px;
         background-color: #fff;
         padding: 10px 0;
@@ -670,13 +673,11 @@
     }
     
     .tools-list .tools-li {
-        /*new edit*/
         width: 100%;
         padding: 8px 25px;
     }
     
     html[dir=ltr] .tools-list .tools-li {
-        /*new edit*/
         padding: 8px 25px;
     }
     
@@ -686,6 +687,8 @@
         font-size: 15px;
         font-family: "medium";
         transition: all 0.4s ease-in-out;
+        /*****new edit*****/
+        white-space: nowrap;
     }
     
     .tools-li .tools-link:hover {
@@ -696,7 +699,6 @@
         visibility: visible;
         opacity: 1;
     }
-    /*new edit*/
     /** sub list Start **/
     
     .tools-list .sub-box {
@@ -733,6 +735,8 @@
         font-size: 15px;
         font-family: "medium";
         transition: all 0.4s ease-in-out;
+        /*****new edit*****/
+        white-space: nowrap;
     }
     
     .sub-li .sub-link:hover {

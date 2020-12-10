@@ -138,7 +138,10 @@
         .mo-nav .close:hover {
             color: #0d47a1;
         }
-        .mo-nav .nav-list .nav-li:nth-child(2) {
+        /*********new Edit*********/
+        .mo-nav .nav-list .nav-li:nth-child(1),
+        .mo-nav .nav-list .nav-li:nth-child(2),
+        .mo-nav .nav-list .nav-li:nth-child(3) {
             display: flex;
             flex-direction: column;
         }
@@ -155,17 +158,21 @@
             margin-right: 0;
         }
         .nav-li .nav-link {
-            color: #000;
             font-family: "medium";
             font-size: 16px;
             width: 100%;
             transition: all 0.4s ease-in-out;
+            /******new Edit******/
+            color: #fff;
+            background-color: #0d47a1;
+            padding: 5px;
         }
         .nav-li .nav-link::before {
             display: none;
         }
         .nav-li .nav-link:hover {
-            color: #0d47a1;
+            /******new Edit******/
+            color: #fff;
         }
         .nav-list .config-box .nav-link::after,
         .nav-list .tools-box .nav-link::after {
@@ -261,11 +268,12 @@
             font-size: 14px;
             font-family: "medium";
             transition: all 0.4s ease-in-out;
-            /* new edit */
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
+            /********new edit*******/
+            white-space: pre-wrap;
         }
         .tools-li .tools-link:hover {
             color: #0d47a1;
@@ -291,7 +299,6 @@
             font-style: normal;
             text-decoration: inherit;
         }
-        /* new edit */
         .sub-box .sub-list {
             position: relative;
             top: auto;
@@ -332,10 +339,16 @@
         .sub-li .sub-link {
             font-size: 13px;
             font-family: "medium";
-            display: flex;
+            /******new Edit******/
+            white-space: pre-wrap;
+            /* display: flex;
             flex-direction: row;
             justify-content: space-between;
-            align-items: center;
+            align-items: center; */
+        }
+        /******new Edit******/
+        .sub-li .sub-link::before {
+            content: "- ";
         }
         /*** Side Menu End ***/
         .main-slider .owl-carousel .owl-dots {
@@ -346,6 +359,10 @@
         }
         .gallary .small-item {
             margin-bottom: 15px;
+        }
+        /********new Edit*******/
+        .sub-item .item-content {
+            min-height: 155px;
         }
         .sub-one {
             margin-bottom: 40px;
@@ -660,7 +677,10 @@
         .mo-nav .close:hover {
             color: #0d47a1;
         }
-        .mo-nav .nav-list .nav-li:nth-child(2) {
+        /*********new Edit*********/
+        .mo-nav .nav-list .nav-li:nth-child(1),
+        .mo-nav .nav-list .nav-li:nth-child(2),
+        .mo-nav .nav-list .nav-li:nth-child(3) {
             display: flex;
             flex-direction: column;
         }
@@ -677,17 +697,21 @@
             margin-right: 0;
         }
         .nav-li .nav-link {
-            color: #000;
             font-family: "medium";
             font-size: 16px;
             width: 100%;
             transition: all 0.4s ease-in-out;
+            /******new Edit******/
+            color: #fff;
+            background-color: #0d47a1;
+            padding: 5px;
         }
         .nav-li .nav-link::before {
             display: none;
         }
         .nav-li .nav-link:hover {
-            color: #0d47a1;
+            /******new Edit******/
+            color: #fff;
         }
         .nav-list .config-box .nav-link::after,
         .nav-list .tools-box .nav-link::after {
@@ -783,11 +807,12 @@
             font-size: 14px;
             font-family: "medium";
             transition: all 0.4s ease-in-out;
-            /* new edit */
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
+            /********new edit*******/
+            white-space: pre-wrap;
         }
         .tools-li .tools-link:hover {
             color: #0d47a1;
@@ -813,7 +838,6 @@
             font-style: normal;
             text-decoration: inherit;
         }
-        /* new edit */
         .sub-box .sub-list {
             position: relative;
             top: auto;
@@ -854,10 +878,16 @@
         .sub-li .sub-link {
             font-size: 13px;
             font-family: "medium";
-            display: flex;
+            /******new Edit******/
+            white-space: pre-wrap;
+            /* display: flex;
             flex-direction: row;
             justify-content: space-between;
-            align-items: center;
+            align-items: center; */
+        }
+        /******new Edit******/
+        .sub-li .sub-link::before {
+            content: "- ";
         }
         /*** Side Menu End ***/
         .main-slider .owl-carousel .owl-dots {

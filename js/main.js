@@ -306,14 +306,16 @@ $(document).ready(function() {
         $(".mo-nav .config-list").slideToggle(300);
     });
     $(".nav-list .tools-box .nav-link").click(function() {
-        $(".tools-box .nav-link").toggleClass("rotate");
-        $(".mo-nav .tools-list").css("transition", "none");
-        $(".mo-nav .tools-list").slideToggle(300);
+        /******************New Edit**********************/
+        $(this).toggleClass("rotate");
+        $(this).siblings(".tools-list").css("transition", "none");
+        $(this).siblings(".tools-list").slideToggle(300);
     });
-    // New Edit
+
     $(".sub-box .tools-link").click(function() {
-        $(".sub-box .tools-link").toggleClass("rotate");
-        $(".sub-box .sub-list").css("transition", "none");
-        $(".sub-box .sub-list").slideToggle(300);
+        /******************New Edit**********************/
+        $(this).toggleClass("rotate");
+        $(this).siblings(".sub-list").css("transition", "none");
+        $(this).siblings(".sub-list").slideToggle(300);
     });
 });
